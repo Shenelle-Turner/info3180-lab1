@@ -1,12 +1,19 @@
-   <!DOCTYPE html>
-   <html lang="en">
-   <head>
-       <meta charset="UTF-8">
-       <title>My Website - About</title>
-   </head>
-   <body>
-       <h1>Shenelle Turner</h1>
-       <p>Hi Everyone! I'm a girl who likes TV Shows, cooking, playing basketball and relaxing. 
-        One day ill become the best coder in the world. All you gotta do is stay tuned and watch it happen</p>
-   </body>
-   </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website - About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
+</head>
+<body>
+    <h1>Shenelle Turner</h1>
+    <p>Hello Everyone! I am a dedicated student who enjoys watching television shows 
+        and cooking and playing basketball. I spend my free time between basketball games 
+        and cooking experiments by resting to prepare for my upcoming challenges. My current 
+        path leads me to become a top-tier programmer who uses his artistic talents and technical 
+        abilities to create exceptional projects. Watch me make my dream come true through my coding 
+        work which I develop one line at a time.</p>
+    <img src="{{ url_for('static', filename='my-image.jpg') }}" alt="My Photo" />
+</body>
+</html>
+
